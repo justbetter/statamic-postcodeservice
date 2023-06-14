@@ -1,0 +1,43 @@
+{
+    "name": "justbetter/statamic-postcodeservice",
+    "description": "Package for adding postcodeservice form fields",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Kevin Meijer",
+            "email": "kevin@justbetter.nl",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0|^8.1",
+        "laravel/framework": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "JustBetter\\StatamicPostcodeservice\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "statamic": {
+            "name": "Statamic Postcodeservice",
+            "description": "Statamic Postcodeservice addon"
+        },
+        "laravel": {
+            "providers": [
+                "JustBetter\\StatamicPostcodeservice\\ServiceProvider"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.justbetter.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
