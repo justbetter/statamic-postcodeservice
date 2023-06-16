@@ -20,8 +20,15 @@ class Postcodeservice extends Text
     protected function configFieldItems(): array
     {
         $config = parent::configFieldItems();
-        $config['input_type']['default'] = $this->postcodeserviceDefaultFieldType;
-        $config['input_type']['options'] = $this->postcodeserviceFieldTypes;
+
+        $config['postcodeservice_type'] = [
+            'display' => __('Field type'),
+            'instructions' => __('Select the Postcodeservice field type'),
+            'type' => 'select',
+            'default' => $this->postcodeserviceDefaultFieldType,
+            'width' => 50,
+            'options' => $this->postcodeserviceFieldTypes
+        ];
 
         return $config;
     }

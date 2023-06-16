@@ -32,11 +32,11 @@ class PostcodeserviceTag extends Tags
         }
 
         foreach ($form['fields'] as $field) {
-            if (!isset($field['input_type']) || !isset($field['handle']) || ($field['type'] ?? '') !== 'postcodeservice') {
+            if (!isset($field['input_type']) || !isset($field['handle']) || ($field['type'] ?? '') !== 'postcodeservice' || !isset($field['postcodeservice_type'])) {
                 continue;
             }
 
-            $postcodeserviceFields[$field['input_type']] = $field['handle'];
+            $postcodeserviceFields[$field['postcodeservice_type']] = $field['handle'];
         }
 
         return $postcodeserviceFields;
