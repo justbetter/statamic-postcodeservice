@@ -1,3 +1,4 @@
+@php($errorMessage = __('justbetter-postcodeservice::defaults.no_address_found'))
 <script type="text/javascript">
     let zipcodeElement = document.getElementById('{{ $postcodeserviceFields['postcodeservice_zipcode'] ?? '' }}');
     let houseNumberElement = document.getElementById('{{ $postcodeserviceFields['postcodeservice_house_number'] ?? '' }}');
@@ -32,6 +33,12 @@
             streetElement.disabled = true;
             cityElement.disabled = true;
 
+            let errorElement = document.getElementsByClassName('postcodeservice-not-found');
+
+            if (errorElement.length !== 0) {
+                errorElement[0].remove();
+            }
+
             let xhr = new XMLHttpRequest();
             let data = {
                 postcode: zipcode,
@@ -54,6 +61,11 @@
                 let responseData = JSON.parse(xhr.response);
 
                 if (!responseData?.city || !responseData?.street) {
+                    errorElement = document.createElement('span');
+                    errorElement.classList = 'postcodeservice-not-found';
+                    errorElement.append('<?= $errorMessage ?>');
+
+                    zipcodeElement.after(errorElement);
                     streetElement.value = '';
                     cityElement.value = '';
                     return;
