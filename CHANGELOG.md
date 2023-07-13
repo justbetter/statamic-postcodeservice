@@ -1,6 +1,14 @@
 # Changelog 
 
-[Unreleased changes](https://github.com/justbetter/statamic-postcodeservice/compare/1.0.5...master)
+[Unreleased changes](https://github.com/justbetter/statamic-postcodeservice/compare/1.0.6...master)
+## [1.0.6](https://github.com/justbetter/statamic-postcodeservice/releases/tag/1.0.6) - 2023-06-23
+
+### [1.0.6] - 2023-06-23
+
+### Added
+
+Added error message when no address is found
+
 ## [1.0.5](https://github.com/justbetter/statamic-postcodeservice/releases/tag/1.0.5) - 2023-06-19
 
 **Full Changelog**: https://github.com/justbetter/statamic-postcodeservice/compare/1.0.4...1.0.5
