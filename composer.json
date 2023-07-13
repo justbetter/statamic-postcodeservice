@@ -11,7 +11,8 @@
     ],
     "require": {
         "php": "^8.0|^8.1",
-        "laravel/framework": "*"
+        "laravel/framework": "*",
+        "statamic/cms": "^4.0"
     },
     "autoload": {
         "psr-4": {

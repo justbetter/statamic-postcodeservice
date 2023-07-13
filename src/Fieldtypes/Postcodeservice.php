@@ -21,13 +21,18 @@ class Postcodeservice extends Text
     {
         $config = parent::configFieldItems();
 
-        $config['postcodeservice_type'] = [
-            'display' => __('Field type'),
-            'instructions' => __('Select the Postcodeservice field type'),
-            'type' => 'select',
-            'default' => $this->postcodeserviceDefaultFieldType,
-            'width' => 50,
-            'options' => $this->postcodeserviceFieldTypes
+        $config[] = [
+            'display' => __('Postcodeservice type'),
+            'fields' => [
+                'postcodeservice_type' => [
+                    'display' => __('Field type'),
+                    'instructions' => __('Select the Postcodeservice field type'),
+                    'type' => 'select',
+                    'default' => $this->postcodeserviceDefaultFieldType,
+                    'width' => 50,
+                    'options' => $this->postcodeserviceFieldTypes
+                ]
+            ]
         ];
 
         return $config;
