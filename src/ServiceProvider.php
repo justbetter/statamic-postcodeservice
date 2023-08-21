@@ -13,6 +13,10 @@ class ServiceProvider extends AddonServiceProvider
         PostcodeserviceTag::class,
     ];
 
+    protected $scripts = [
+        __DIR__ . '/../dist/js/statamic-postcodeservice.js'
+    ];
+
     public function register(): void
     {
         $this->registerConfig();

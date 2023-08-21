@@ -1,0 +1,17 @@
+{
+  "name": "statamic-postcodeservice",
+  "private": true,
+  "description": "Statamic Postcodeservice addon",
+  "scripts": {
+    "development": "mix",
+    "watch": "mix watch",
+    "production": "mix --production"
+  },
+  "author": "JustBetter",
+  "dependencies": {},
+  "devDependencies": {
+    "laravel-mix": "^6.0.49",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.7.14"
+  }
+}
