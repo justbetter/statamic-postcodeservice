@@ -1,6 +1,14 @@
 # Changelog 
 
-[Unreleased changes](https://github.com/justbetter/statamic-postcodeservice/compare/2.0.0...master)
+[Unreleased changes](https://github.com/justbetter/statamic-postcodeservice/compare/2.0.1...master)
+## [2.0.1](https://github.com/justbetter/statamic-postcodeservice/releases/tag/2.0.1) - 2023-08-21
+
+### What's Changed
+* Added fix for missing fieldtype in CP by @kevinmeijer97 in https://github.com/justbetter/statamic-postcodeservice/pull/5
+
+
+**Full Changelog**: https://github.com/justbetter/statamic-postcodeservice/compare/2.0.0...2.0.1
+
 ## [2.0.0](https://github.com/justbetter/statamic-postcodeservice/releases/tag/2.0.0) - 2023-07-13
 
 ### [2.0.0] - 2023-06-27
