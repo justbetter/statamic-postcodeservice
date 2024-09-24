@@ -1,6 +1,14 @@
 # Changelog 
 
-[Unreleased changes](https://github.com/justbetter/statamic-postcodeservice/compare/2.1.0...master)
+[Unreleased changes](https://github.com/justbetter/statamic-postcodeservice/compare/2.1.1...master)
+## [2.1.1](https://github.com/justbetter/statamic-postcodeservice/releases/tag/2.1.1) - 2024-09-24
+
+### What's Changed
+* Added banner by @kevinmeijer97 in https://github.com/justbetter/statamic-postcodeservice/pull/6
+
+
+**Full Changelog**: https://github.com/justbetter/statamic-postcodeservice/compare/2.1.0...2.1.1
+
 ## [2.1.0](https://github.com/justbetter/statamic-postcodeservice/releases/tag/2.1.0) - 2024-09-19
 
 ### What's Changed
