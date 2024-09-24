@@ -1,3 +1,7 @@
+<a href="https://github.com/justbetter/statamic-postcodeservice" title="JustBetter">
+    <img src="./art/banner.png" alt="Banner">
+</a>
+
 # Statamic Postcodeservice
 
 > This addon adds Postcodeservice field types to the Form Builder.
