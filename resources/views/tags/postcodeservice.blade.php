@@ -71,6 +71,8 @@
                     return;
                 }
 
+                window.dispatchEvent(new CustomEvent('postcodeservice-data', { detail: responseData }))
+
                 streetElement.value = responseData.street;
                 cityElement.value = responseData.city;
             };
