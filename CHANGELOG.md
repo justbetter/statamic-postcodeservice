@@ -1,6 +1,12 @@
 # Changelog 
 
-[Unreleased changes](https://github.com/justbetter/statamic-postcodeservice/compare/2.1.1...master)
+[Unreleased changes](https://github.com/justbetter/statamic-postcodeservice/compare/2.2.0...master)
+## [2.2.0](https://github.com/justbetter/statamic-postcodeservice/releases/tag/2.2.0) - 2025-02-28
+
+### Added
+
+- Add event for postcodeservice data by @Jade-GG in https://github.com/justbetter/statamic-postcodeservice/pull/7
+
 ## [2.1.1](https://github.com/justbetter/statamic-postcodeservice/releases/tag/2.1.1) - 2024-09-24
 
 ### What's Changed
