@@ -71,7 +71,9 @@
                     return;
                 }
 
-                window.dispatchEvent(new CustomEvent('postcodeservice-data', { detail: responseData }))
+                window.dispatchEvent(new CustomEvent('postcodeservice-data', {
+                    detail: Object.assign({ zipcode: zipcode }, responseData)
+                }))
 
                 streetElement.value = responseData.street;
                 cityElement.value = responseData.city;
