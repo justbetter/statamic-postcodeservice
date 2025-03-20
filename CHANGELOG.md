@@ -4,7 +4,8 @@
 ## [2.3.0](https://github.com/justbetter/statamic-postcodeservice/releases/tag/2.3.0) - 2025-03-19
 
 ### Added
-* Add zipcode to event data https://github.com/justbetter/statamic-postcodeservice/pull/8
+
+- Add zipcode to event data (#8)
 
 ## [2.2.0](https://github.com/justbetter/statamic-postcodeservice/releases/tag/2.2.0) - 2025-02-28
 
