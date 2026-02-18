@@ -1,6 +1,12 @@
 # Changelog 
 
-[Unreleased changes](https://github.com/justbetter/statamic-postcodeservice/compare/2.3.0...master)
+[Unreleased changes](https://github.com/justbetter/statamic-postcodeservice/compare/2.3.1...master)
+## [2.3.1](https://github.com/justbetter/statamic-postcodeservice/releases/tag/2.3.1) - 2026-02-18
+
+### Fixed
+
+- Postcode validation fix (#9)
+
 ## [2.3.0](https://github.com/justbetter/statamic-postcodeservice/releases/tag/2.3.0) - 2025-03-19
 
 ### Added
