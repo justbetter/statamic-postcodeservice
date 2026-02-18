@@ -47,6 +47,7 @@
 
             xhr.open('POST', '/api/postcodeservice');
             xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
+            xhr.setRequestHeader('Accept', 'application/json');
             xhr.send(JSON.stringify(data));
             xhr.onload = function () {
                 streetElement.disabled = false;
