@@ -3,15 +3,17 @@
   "private": true,
   "description": "Statamic Postcodeservice addon",
   "scripts": {
-    "development": "mix",
-    "watch": "mix watch",
-    "production": "mix --production"
+    "dev": "vite",
+    "build": "vite build"
   },
   "author": "JustBetter",
-  "dependencies": {},
+  "dependencies": {
+    "@statamic/cms": "file:./vendor/statamic/cms/resources/dist-package",
+    "@tailwindcss/vite": "^4.1.18",
+    "laravel-vite-plugin": "^2.0.1",
+    "vue": "^3.5.30"
+  },
   "devDependencies": {
-    "laravel-mix": "^6.0.49",
-    "vue-loader": "^15.9.8",
-    "vue-template-compiler": "^2.7.14"
+    "vite": "^6.3.4"
   }
 }
