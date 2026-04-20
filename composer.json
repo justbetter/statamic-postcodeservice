@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^8.0|^8.1",
-        "laravel/framework": "*",
+        "laravel/framework": "^13.0",
         "statamic/cms": "^6.0"
     },
     "autoload": {
