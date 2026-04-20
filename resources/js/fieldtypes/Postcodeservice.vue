@@ -1,21 +1,17 @@
 <template>
 
     <div>
-        <text-input :value="value" @input="update" />
+        <Input :model-value="value" @update:model-value="update" />
     </div>
 
 </template>
 
-<script>
-export default {
+<script setup>
+import { Input } from '@statamic/cms/ui';
+import { Fieldtype } from '@statamic/cms';
 
-    mixins: [Fieldtype],
-
-    data() {
-        return {
-            //
-        };
-    }
-
-};
+const emit = defineEmits(Fieldtype.emits);
+const props = defineProps(Fieldtype.props);
+const { expose, value, update } = Fieldtype.use(emit, props);
+defineExpose(expose);
 </script>
